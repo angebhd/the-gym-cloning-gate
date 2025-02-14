@@ -5,7 +5,7 @@
 
 /* NEWS section */
 div.news{
-    @apply pt-5 pb-5 border border-white border-b-gray-400 mt-10 mb-10
+    @apply xl:m-0  pt-5 pb-5 border border-white border-b-gray-400 mt-10 mb-10 
 }
 div.news h3, p.p-news{
     @apply text-red-700 text-center uppercase font-semibold pt-2 pb-2
