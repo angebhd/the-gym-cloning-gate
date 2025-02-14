@@ -23,11 +23,20 @@ div.news hr {
 
 /* Red bullet */
 div.bullet-span {
-    @apply grid grid-cols-5 gap-8 mr-auto ml-auto w-28 place-content-around
+    @apply grid grid-cols-3 gap-8 my-8 mx-auto w-28 place-content-around
 }
+
+div.bullet-span div {
+    @apply grid grid-cols-5 gap-8 my-8 mx-auto w-28 place-content-around
+}
+
 
 div.bullet-span span {
     @apply w-2 h-2 bg-red-600 rounded
+}
+
+div.bullet-span div span {
+    @apply w-2 h-2 bg-white rounded
 }
 
 /* h1 header */
