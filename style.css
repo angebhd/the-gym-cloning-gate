@@ -4,36 +4,49 @@
 
 
 /* NEWS section */
-div.news{
-    @apply xl:m-0  pt-5 pb-5 border border-white border-b-gray-400 mt-10 mb-10 
+div.news {
+    @apply xl:m-0 pt-5 pb-5 border border-white border-b-gray-400 mt-10 mb-10
 }
-div.news h3, p.p-news{
+
+div.news h3, p.p-news {
     @apply text-red-700 text-center uppercase font-semibold pt-2 pb-2
 }
 
-div.news p{
+div.news p {
     @apply text-center
 }
 
-div.news hr{
+div.news hr {
     @apply w-5 h-1 bg-gray-300 ml-auto mr-auto mt-2
 }
 
 
 /* Red bullet */
 div.bullet-span {
-    @apply   grid grid-cols-5 gap-8 mr-auto ml-auto w-28 place-content-around
+    @apply grid grid-cols-5 gap-8 mr-auto ml-auto w-28 place-content-around
 }
-div.bullet-span span{
+
+div.bullet-span span {
     @apply w-2 h-2 bg-red-600 rounded
 }
 
 /* h1 header */
 
-h1.header{
+h1.header {
     @apply text-2xl pt-2 pb-2
 }
 
-h1.header span{
+h1.header span {
     @apply text-4xl
+}
+
+/* my bg */
+div.mybg1 {
+    background-image: url("images/avian-bird-flu.jpg");
+}
+
+@media (min-width: 1280px) {
+    div.mybg2 {
+        background-image: url("images/penn-center-innovation.jpg");
+    }
 }
