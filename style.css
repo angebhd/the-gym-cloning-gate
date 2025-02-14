@@ -36,7 +36,7 @@ div.bullet-span span {
 }
 
 div.bullet-span div span {
-    @apply w-2 h-2 bg-white rounded
+    @apply w-2 h-2 bg-white rounded xl:bg-red-600
 }
 
 /* h1 header */
@@ -58,4 +58,16 @@ div.mybg1 {
     div.mybg2 {
         background-image: url("images/penn-center-innovation.jpg");
     }
+}
+
+/* Social media */
+
+div.social{
+    @apply flex justify-center items-center gap-8 flex-wrap px-10 my-8
+}
+div.social a{
+    @apply border p-2 rounded-full
+}
+div.social img{
+    @apply max-w-full w-4 xl:w-8
 }
