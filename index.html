@@ -11,32 +11,36 @@
 </head>
 
 <body>
-    <header>
+    <header class="">
         <div class="p-2 bg-[#011F5B] text-white">
-            <div class="border-gray-500 border p-1 pb-5 pt-5">
-                <p class="pt-5 pb-5 pr-10">
-                    <a href="#" class=" text-2xl leading-9  underline">On Friday, February 14, 2025 the University will
-                        suspend normal operations for the Eagles
-                        victory parade</a>
-                </p>
-                <p>Normal operations will resume Monday, February 17, 2025</p>
+            <div class="xl:pt-16 xl:pb-16    border-gray-500 border p-1 pb-5 pt-5">
+                <div class="xl:max-w-4xl mr-auto ml-auto">
+                    <p class="pt-5 pb-5 pr-10 xl:p-0">
+                        <a href="#" class=" text-2xl leading-9  underline">On Friday, February 14, 2025 the University
+                            will
+                            suspend normal operations for the Eagles
+                            victory parade</a>
+                    </p>
+                    <p>Normal operations will resume Monday, February 17, 2025</p>
+                </div>
             </div>
         </div>
 
-        <div class="bg-[url(images/avian-bird-flu.jpg)] bg-no-repeat bg-cover">
+        <div class=" bg-[url(images/avian-bird-flu.jpg)] bg-no-repeat bg-cover">
             <div class="bg-black bg-opacity-50  text-white">
-                <div class=" flex justify-around items-center border-b-2 pt-2 pb-2 ">
-                    <p><i class="fa fa-search"></i></p>
+                <div
+                    class="xl:border-none xl:justify-between xl:gap-5 xl:max-w-6xl xl:ml-auto xl:mr-auto flex justify-around items-center border-b-2 pt-2 pb-2 ">
+                    <p class="xl:hidden"><i class="fa fa-search"></i></p>
 
-                    <img src="images/UPenn-logo.svg" alt="" srcset="" class=" h-10">
-                    <div class="hidden">
-                        <div>
+                    <img src="images/UPenn-logo.svg" alt="" srcset="" class="xl:h-20 h-10">
+                    <div class="xl:block w-full hidden">
+                        <div class="flex justify-end items-center gap-2">
                             <p><i class="fa fa-search"></i></p>
                             <button>RESSOURCES</button>
-                            <p><a href="#">GIVE TO PENN</a></p>
+                            <p class="p-3 text-sm bg-red-800 font-semibold "><a href="#">GIVE TO PENN</a></p>
                         </div>
-                        <div class="hidden">
-                            <nav>
+                        <div class="xl:block border-t-2       hidden ">
+                            <nav class="flex justify-between font-medium">
                                 <p><a href="#">ACADEMICS</a></p>
                                 <p><a href="#">ADMISSIONS & AID</a></p>
                                 <p><a href="#">ATHLETICS</a></p>
@@ -46,15 +50,18 @@
                             </nav>
                         </div>
                     </div>
-                    <p><i class="fa fa-bars"></i></p>
+                    <p class="xl:hidden"><i class="fa fa-bars"></i></p>
 
 
                 </div>
 
-                <div class="p-8 pt-28">
-                    <h1 class="pt-5 pb-5 font-semibold">Health Sciences</h1>
-                    <h1 class="pb-5 text-3xl  ">How Penn is helping with bird flu research and disease surveillance</h1>
-                    <p class=" ">Faculty are working on a new vaccine for the H5N1 virus, studying its transmission, and
+                <div class="xl:max-w-6xl xl:ml-auto xl:mr-auto xl:pt-40 xl:pb-20  p-8 pt-28">
+                    <h1 class="xl:text-lg pt-5 pb-5 font-semibold">Health Sciences</h1>
+                    <h1 class="xl:text-4xl xl:max-w-lg    pb-5 text-3xl  ">How Penn is helping with bird flu research
+                        and disease surveillance</h1>
+                    <hr class="w-10 h-1 bg-gray-300  mt-2">
+                    <p class="xl: hidden ">Faculty are working on a new vaccine for the H5N1 virus, studying its
+                        transmission, and
                         helping
                         the state test samples from birds and mammals.</p>
 
@@ -64,9 +71,9 @@
     </header>
 
     <main>
-        <div class="pl-5 pr-5 pt-20 text-[#011F5B]">
-            <div>
-                <div class="ml-auto mr-auto flex place-content-center pb-8">
+        <div class="xl:max-w-6xl xl:mx-auto pl-5 pr-5 pt-20 text-[#011F5B]">
+            <div class="xl:flex xl: justify-between flex-row-reverse   " >
+                <div class="xl:m-0 ml-auto mr-auto flex place-content-center pb-8">
                     <select name="" id=""
                         class="w-36 overflow-auto p-3 bg-white border border-white border-b-gray-400 ">
                         <option selected disabled value="">Topics</option>
@@ -75,8 +82,10 @@
                         <option value="">Campus and communities</option>
                     </select>
                 </div>
-                <h1 class="header"><span class="">N</span>ews</h1>
-                <hr class="w-7 h-1 bg-gray-400">
+                <div>
+                    <h1 class="header"><span class="">N</span>ews</h1>
+                    <hr class="w-7 h-1 bg-gray-400">
+                </div>
             </div>
             <div class="mt-5">
                 <div class="news">
@@ -85,9 +94,10 @@
                         <h3>Health Science</h3>
                         <p>Catherine and Anthony Clifton make transformational gift to accelerate patient care,
                             research, and education at Penn Medicine</p>
-                        <hr>
+
 
                     </a>
+                    <hr class="w-5 h-1 bg-gray-300  mt-2">
                 </div>
 
                 <div>
@@ -217,7 +227,8 @@
                         <h1 class="header text-center">Supporting Our Community</h1>
                     </div>
                     <hr class="w-5 h-1 bg-gray-300 ml-auto mr-auto mt-2">
-                    <p class="pt-8 pb-5 text-center">During these challenging times, Penn remains committed to supporting students, faculty, and staff and
+                    <p class="pt-8 pb-5 text-center">During these challenging times, Penn remains committed to
+                        supporting students, faculty, and staff and
                         to sharing information with our larger community of alumni, parents, and friends.</p>
                     <p class="text-center mb-16 mt-16"><a href="#"
                             class="border border-gray-400/50 p-5 pl-8 pr-8 rounded-3xl font-semibold">LEARN MORE</a>
