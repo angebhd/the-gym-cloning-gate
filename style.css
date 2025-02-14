@@ -18,3 +18,22 @@ div.news p{
 div.news hr{
     @apply w-5 h-1 bg-gray-300 ml-auto mr-auto mt-2
 }
+
+
+/* Red bullet */
+div.bullet-span {
+    @apply   grid grid-cols-5 gap-8 mr-auto ml-auto w-28 place-content-around
+}
+div.bullet-span span{
+    @apply w-2 h-2 bg-red-600 rounded
+}
+
+/* h1 header */
+
+h1.header{
+    @apply text-2xl pt-2 pb-2
+}
+
+h1.header span{
+    @apply text-4xl
+}
