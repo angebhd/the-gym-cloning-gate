@@ -12,25 +12,30 @@
 
 <body>
     <header>
-        <div>
-            <p><a href="#">On Friday, February 14, 2025 the University will suspend normal operations for the Eagles
-                    victory parade</a></p>
-            <p>Normal operations will resume Monday, February 17, 2025</p>
+        <div class="p-2 bg-[#011F5B] text-white">
+            <div class="border-gray-500 border p-1 pb-5 pt-5">
+                <p class="pt-5 pb-5 pr-10">
+                    <a href="#" class=" text-2xl leading-9  underline">On Friday, February 14, 2025 the University will
+                        suspend normal operations for the Eagles
+                        victory parade</a>
+                </p>
+                <p>Normal operations will resume Monday, February 17, 2025</p>
+            </div>
         </div>
 
         <div class="bg-[url(images/avian-bird-flu.jpg)] bg-no-repeat bg-cover">
-            <!-- <img src="images/avian-bird-flu.jpg" alt=""> -->
-            <div class="bg-black bg-opacity-30  ">
-                <div>
-                    <img src="images/UPenn-logo.svg" alt="" srcset="">
-                    <div>
+            <div class="bg-black bg-opacity-50  text-white">
+                <div class=" flex justify-around items-center border-b-2 pt-2 pb-2 ">
+                    <p><i class="fa fa-search"></i></p>
+
+                    <img src="images/UPenn-logo.svg" alt="" srcset="" class=" h-10">
+                    <div class="hidden">
                         <div>
                             <p><i class="fa fa-search"></i></p>
                             <button>RESSOURCES</button>
                             <p><a href="#">GIVE TO PENN</a></p>
                         </div>
-                        <div>
-
+                        <div class="hidden">
                             <nav>
                                 <p><a href="#">ACADEMICS</a></p>
                                 <p><a href="#">ADMISSIONS & AID</a></p>
@@ -41,12 +46,16 @@
                             </nav>
                         </div>
                     </div>
+                    <p><i class="fa fa-bars"></i></p>
+
+
                 </div>
 
-                <div>
-                    <h1>Health Sciences</h1>
-                    <h1>How Penn is helping with bird flu research and disease surveillance</h1>
-                    <p>Faculty are working on a new vaccine for the H5N1 virus, studying its transmission, and helping
+                <div class="p-8 pt-28">
+                    <h1 class="pt-5 pb-5 font-semibold">Health Sciences</h1>
+                    <h1 class="pb-5 text-3xl  ">How Penn is helping with bird flu research and disease surveillance</h1>
+                    <p class=" ">Faculty are working on a new vaccine for the H5N1 virus, studying its transmission, and
+                        helping
                         the state test samples from birds and mammals.</p>
 
                 </div>
@@ -55,66 +64,74 @@
     </header>
 
     <main>
-        <div>
+        <div class="pl-5 pr-5 pt-20 text-[#011F5B]">
             <div>
-                <h1>NEWS</h1>
-                <select name="" id="">
-                    <option selected disabled value="">Topics</option>
-                    <option value="">Featured</option>
-                    <option value="">Arts Humanity and Science</option>
-                    <option value="">Campus and communities</option>
-                </select>
+                <div class="ml-auto mr-auto flex place-content-center pb-8">
+                    <select name="" id=""
+                        class="w-36 overflow-auto p-3 bg-white border border-white border-b-gray-400 ">
+                        <option selected disabled value="">Topics</option>
+                        <option value="">Featured</option>
+                        <option value="">Arts Humanity and Science</option>
+                        <option value="">Campus and communities</option>
+                    </select>
+                </div>
+                <h1 class="text-2xl pt-2 pb-2"><span class="text-4xl">N</span>ews</h1>
+                <hr class="w-7 h-1 bg-gray-400">
             </div>
-            <div>
-                <div>
+            <div class="mt-5">
+                <div class="news">
                     <a href="">
                         <img src="images/pavilion-gift-teaser.jpg" alt="pavilion-gift-teaser">
                         <h3>Health Science</h3>
                         <p>Catherine and Anthony Clifton make transformational gift to accelerate patient care,
                             research, and education at Penn Medicine</p>
+                        <hr>
 
                     </a>
                 </div>
 
                 <div>
-                    <div>
-                        <img src="images/epstein-jon-teaser.jpg" alt="epstein-jon-teaser">
+                    <div class="news">
                         <h3>Health Science</h3>
                         <p>Jonathan A. Epstein named head of Perelman School of Medicine and Penn Health System</p>
+                        <hr>
                     </div>
-                    <div>
-                        <img src="images/epstein-jon-teaser.jpg" alt="epstein-jon-teaser">
+                    <div class="news">
                         <h3>Health Science</h3>
                         <p>Jonathan A. Epstein named head of Perelman School of Medicine and Penn Health System</p>
+                        <hr>
                     </div>
-                    <div>
-                        <img src="images/epstein-jon-teaser.jpg" alt="epstein-jon-teaser">
+                    <div class="news">
                         <h3>Health Science</h3>
                         <p>Jonathan A. Epstein named head of Perelman School of Medicine and Penn Health System</p>
+                        <hr>
                     </div>
-                    <div>
-                        <img src="images/epstein-jon-teaser.jpg" alt="epstein-jon-teaser">
+                    <div class="news">
                         <h3>Health Science</h3>
                         <p>Jonathan A. Epstein named head of Perelman School of Medicine and Penn Health System</p>
+                        <hr>
                     </div>
-                    <p>MORE NEWS VIA PENN TODAY</p>
+
+                    <p class="p-news">MORE NEWS VIA PENN TODAY</p>
                 </div>
             </div>
         </div>
-        <div>
+        <div class="mt-10">
             <img src="images/penn-center-innovation.jpg" alt="" class="hidden">
-            <img src="images/penn-center-innovation_1.jpg" alt="" class="hidden">
-            <div>
-                <p>Campus & Community </p>
-                <a href="#">
-                    <p>Penn Center for Innovation celebrates 10 years</p>
-                </a>
-                <hr>
-                <p>The University’s nexus for technology transfer supports researchers in their innovative efforts, from
-                    CAR T to mRNA advancements that have dramatically reshaped the world.</p>
+            <img src="images/penn-center-innovation_1.jpg" alt="" class="">
+            <div class="p-2 bg-[#011F5B] text-white ml-5 mr-5 -translate-y-1/3">
+                <div class="border-gray-500 border p-5 pt-10">
+                    <p class="uppercase text-center p-5 font-semibold">Campus & Community </p>
+                    <a href="#" class="text-xl">
+                        <p class="text-center">Penn Center for Innovation celebrates 10 years</p>
+                    </a>
+                    <hr>
+                    <p>The University’s nexus for technology transfer supports researchers in their innovative efforts,
+                        from
+                        CAR T to mRNA advancements that have dramatically reshaped the world.</p>
 
-                <a href="#">LEARN MORE</a>
-
+                    <a href="#">LEARN MORE</a>
+                </div>
             </div>
         </div>
         <div>
@@ -377,7 +394,8 @@
                 </div>
                 <div>
                     <h4>Penn's Heritage</h4>
-                    <p>As America’s first university, Penn has a history that dates back to 1740 and shares many ties with the colonial city of Philadelphia and the birth of our nation.</p>
+                    <p>As America’s first university, Penn has a history that dates back to 1740 and shares many ties
+                        with the colonial city of Philadelphia and the birth of our nation.</p>
                     <a href="#">OUR HISTORY</a>
                 </div>
             </div>

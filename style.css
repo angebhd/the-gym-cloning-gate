@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* NEWS section */
+div.news{
+    @apply pt-5 pb-5 border border-white border-b-gray-400 mt-10 mb-10
+}
+div.news h3, p.p-news{
+    @apply text-red-700 text-center uppercase font-semibold pt-2 pb-2
+}
+
+div.news p{
+    @apply text-center
+}
+
+div.news hr{
+    @apply w-5 h-1 bg-gray-300 ml-auto mr-auto mt-2
+}
